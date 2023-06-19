@@ -1,0 +1,105 @@
+@import "menu.css";
+
+:root {
+    --background-nav: #333;
+    --text-color-nav:white;
+    --background-header: #f8f5f3;
+    --background-active-nav: #d2c2b8;
+    --background-hover-nav: #DCD2CC;
+    --text-color-active-hover: white;
+    --text-color-not-active-hover: white;
+    --font-size-mobile-nav: 30px;
+  }
+  
+body {
+    margin: 0;
+    font-family: Perpetua, sans-serif, Arial, Helvetica;
+    font-size: 20px;
+    background-color: white;
+
+}
+
+.header {
+    text-align: center;
+    background-color: var(--background-header);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 12% 0 12%;
+}
+
+.img-center-reduce {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  ul {
+    list-style-position: outside;
+    padding-left: 0;
+  }
+  
+.center-position {
+    display: flex;
+    justify-content: center;
+}
+
+#image-logo {
+    width: 15%;
+    height: 10%
+}
+
+@media screen and (max-width: 400px) {
+    #image-logo {
+        width: 35%;
+        height: 25%
+    }
+  }
+
+@media screen and (min-width: 1000px) {
+    .content {
+        margin: 0 23% 0 23%;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 3000px) {
+    .content {
+        margin: 0 30% 0 30%;
+    }
+}
+
+
+figcaption {
+    margin: 10px 0 10px 0;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.key-sentence {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.marketing-placeholder {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color:black;
+
+}
