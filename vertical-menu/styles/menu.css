@@ -2,8 +2,8 @@
 
 .menu-toggle {
   position: absolute;
+  right: 0;
   cursor: pointer;
-  z-index: 2;
 }
 
 @media screen and (max-width: 400px) {
@@ -13,10 +13,10 @@
     transform: translateX(-100%);
     transition: transform 0.5s ease-in-out;
   }
- 
+
   .vertical-navbar.open {
     transform: translateX(0);
-}
+  }
 
   .vertical-navbar a {
     display: block;
@@ -36,6 +36,4 @@
     background-color: var(--background-active-nav);
     color: white;
   }
-} 
-
-
+}

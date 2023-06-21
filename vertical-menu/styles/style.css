@@ -103,3 +103,10 @@ figcaption {
     background-color:black;
 
 }
+
+.close-menu-icon {
+    position: relative;
+    z-index: 3;
+}
+
+
