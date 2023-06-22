@@ -1,0 +1,13 @@
+@import "style.css";
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--background-header);
+  }
+  
+  .logo img {
+    height: 11vh; /* Adjust the height as needed */
+  }
+  
