@@ -6,15 +6,25 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+.menu-icon {
+  height: 10vh;
+}
+
+.close-menu-icon {
+  position: relative;
+  z-index: 3;
+}
+
+@media screen and (max-width: 850px) {
   .vertical-navbar {
     display: block;
-    width: 100%;
+    /* height: 100vh; */
+    /* width: 100vh; */
     transform: translateX(-100%);
     transition: transform 0.5s ease-in-out;
   }
 
-  .vertical-navbar.open {
+  .vertical-navbar.menu-open {
     transform: translateX(0);
   }
 

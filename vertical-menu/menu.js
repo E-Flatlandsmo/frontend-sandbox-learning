@@ -11,6 +11,15 @@ const menuToggle = document.querySelector('.menu-toggle');
 const verticalMenu = document.querySelector('.vertical-navbar');
 
 menuToggle.addEventListener('click', function() {
-    verticalMenu.classList.toggle('open');
-    console.log(verticalMenu)
+    const overlay = document.getElementById('overlay');
+    verticalMenu.classList.toggle('menu-open');
 });
+
+
+// Simpler implementation?
+// function toggleMenu() {
+//     const menu = document.getElementById('menu');
+//     const overlay = document.getElementById('overlay');
+    // document.body.classList.toggle('menu-open');
+//   }
+  
