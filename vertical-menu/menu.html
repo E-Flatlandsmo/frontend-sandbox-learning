@@ -10,16 +10,9 @@
 </head>
 
 <body>
-
-  <h1>Eijos</h1>
-
-  <div> 
-    <div class="menu-toggle">
-      <i class="fas fa-ellipsis-h fa-5x menu-open"></i>
-      <i class="fa-solid fa-xmark close-menu-icon"></i>
-    </div>
-    <div id="overlay"></div>
-    <div class="vertical-navbar">
+  <i id="open-menu-button" class="fas fa-ellipsis-h fa-3x" onClick="show()"></i>
+  <div class="vertical-navbar">
+    <i id="close-menu-button" class="fa-solid fa-xmark fa-2x close-menu-icon" onClick="hide()"></i>
       <nav>
         <a href="#" class="active">Home</a>
         <a href="#">Link 1</a>
@@ -28,7 +21,6 @@
         <a href="#">Link 4</a>
       </nav>
     </div>
-  </div>
 </body>
 
 <script type="text/javascript" src="menu.js"></script>
