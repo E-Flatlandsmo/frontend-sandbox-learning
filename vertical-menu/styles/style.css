@@ -3,16 +3,18 @@
 
 
 :root {
-    --background-nav: #333;
-    --text-color-nav:white;
+    --background-nav: #F6F6F6;
+    --background-vertical-nav: #F6F6F6;
+    --text-color-nav:black;
     --background-header: #f8f5f3;
-    --background-active-nav: #d2c2b8;
-    --background-hover-nav: #DCD2CC;
+    --background-active-nav: #F6F6F6;
+    --background-hover-nav: white;
     --text-color-active-hover: white;
     --text-color-not-active-hover: white;
     --font-size-mobile-nav: 30px;
   }
   
+
 body {
     margin: 0;
     font-family: Perpetua, sans-serif, Arial, Helvetica;
