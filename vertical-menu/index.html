@@ -21,17 +21,26 @@
             </a>
         </div>
         <div class="menu-toggle">
-                <i class="fas fa-ellipsis-h fa-5x menu-open"></i>
-                <i class="fa-solid fa-xmark close-menu-icon"></i>
+            <i class="fas fa-ellipsis-h fa-3x" onClick="show()"></i>
         </div>
     </header>
     <div class="vertical-navbar">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src=".\imgs\eijos_logo_no_background.png" alt="Eijos Logo">
+                </a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-xmark" onClick="hide()"></i>
+            </div>
+        </header>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
+            <a id="nav-link" href="#" class="active">Home</a>
+            <a id="nav-link" href="#">Link 1</a>
+            <a id="nav-link" href="#">Link 2</a>
+            <a id="nav-link" href="#">Link 3</a>
+            <a id="nav-link" href="#">Link 4</a>
         </nav>
     </div>
     <main>
@@ -60,6 +69,6 @@
         </div>
     </div>
 </footer>
-<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript" src="scripts/menu.js"></script>
 
 </html>
