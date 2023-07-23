@@ -1,0 +1,56 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Figtree, sans-serif, Arial, Helvetica;
+}
+
+h1 {
+    font-family: Lora;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 26.4px;
+}
+
+#front-page-image {
+    background-color: rgb(173, 173, 198);
+    background-image: url("../images/grapes_blue_vertical.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.front-page-text {
+    /* Position the text container under the logo */
+    position: absolute;
+    /* Center the text container horizontally */
+    text-align: center;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.front-page-text {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.logo {
+    display: block;
+    height: 25vh;
+    /* Adjust the height as needed */
+}
