@@ -1,0 +1,42 @@
+@import "style.css";
+
+
+@media screen and (max-width: 850px) {
+  .vertical-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-vertical-nav);
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .vertical-navbar.menu-toggle {
+    transform: translateX(0);
+  }
+
+  .vertical-navbar #nav-link {
+    display: block;
+    background-color: var(--background-nav);
+    color: var(--text-color-nav);
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    font-size: var(--font-size-mobile-nav)
+  }
+
+  .vertical-navbar #nav-link.active {
+    color: var(--text-color-active);
+  }
+}
+
+@media screen and (min-width: 850px) {
+  #mobile-navbar {
+    display: none;
+  }
+}
+
