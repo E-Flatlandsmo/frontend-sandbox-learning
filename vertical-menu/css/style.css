@@ -1,11 +1,12 @@
 @import "menu.css";
 @import "header.css";
+@import "images.css";
 
 
 :root {
     --background-nav: #F6F6F6;
     --background-vertical-nav: #F6F6F6;
-    --text-color-nav:black;
+    --text-color-nav: black;
     --background-header: #f8f5f3;
     --background-active-nav: #F6F6F6;
     --background-hover-nav: white;
@@ -13,12 +14,12 @@
     --text-color-active: red;
     --text-color-not-active-hover: white;
     --font-size-mobile-nav: 30px;
-  }
-  
+}
+
 
 body {
     margin: 0;
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: Figtree, sans-serif, Arial, Helvetica;
     font-size: 20px;
     background-color: white;
 
@@ -36,22 +37,12 @@ h1 {
     margin: 0 12% 0 12%;
 }
 
-.img-center-reduce {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-  }
-  
-  ul {
+
+ul {
     list-style-position: outside;
     padding-left: 0;
-  }
-  
+}
+
 .center-position {
     display: flex;
     justify-content: center;
@@ -63,7 +54,7 @@ h1 {
         width: 35%;
         height: 25%
     }
-  }
+}
 
 @media screen and (min-width: 1000px) {
     .main {
@@ -94,8 +85,6 @@ figcaption {
     margin: auto;
     width: 50%;
     height: 50%;
-    background-color:black;
+    background-color: black;
 
 }
-
-

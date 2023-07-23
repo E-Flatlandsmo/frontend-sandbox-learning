@@ -33,3 +33,10 @@
     color: var(--text-color-active);
   }
 }
+
+@media screen and (min-width: 850px) {
+  #mobile-navbar {
+    display: none;
+  }
+}
+
