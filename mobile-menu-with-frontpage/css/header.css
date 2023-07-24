@@ -8,7 +8,7 @@
     background-color: var(--background-header);
   }
   
-  .logo img {
+  #logo-navbar {
     height: 9vh; /* Adjust the height as needed */
   }
   

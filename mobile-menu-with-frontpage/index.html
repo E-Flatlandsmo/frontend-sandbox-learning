@@ -14,22 +14,21 @@
 </head>
 
 <body>
-    <div class="menu-toggle">
+    <div class="menu-toggle menu-icon-open">
         <i class="fas fa-ellipsis-h fa-3x" onClick="show()"></i>
     </div>
-    <div class="vertical-navbar">
-        <div id="mobile-navbar">
-            <div class="logo">
+    <div class="mobile-navbar">
+            <header>
                 <a href="index.html">
-                    <img src="/mobile-menu-with-frontpage/images/eijos_logo_no_background-white.png" alt="Eijos Logo">
+                    <img id="logo-navbar" src="/mobile-menu-with-frontpage/images/eijos_logo_no_background.png"
+                        alt="Eijos Logo">
                 </a>
-            </div>
-            <div class="menu-toggle">
-                <i class="fa-solid fa-xmark" onClick="hide()"></i>
-            </div>
-        </div>
+                <div class="menu-toggle menu-icon-close">
+                    <i class="fa-solid fa-xmark fa-2x" onClick="hide()"></i>
+                </div>
+            </header>
         <nav>
-            <a id="nav-link" href="#" class="active">Home</a>
+            <a id="nav-link" href="#">Home</a>
             <a id="nav-link" href="#">Link 1</a>
             <a id="nav-link" href="#">Link 2</a>
             <a id="nav-link" href="#">Link 3</a>

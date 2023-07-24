@@ -1,12 +1,15 @@
 .menu-toggle {
   position: absolute;
   right: 0;
+  font-size: 0.9rem;
   margin: 1rem;
-  color: white;
 }
 
+.menu-icon-open {
+  color: white;
+}
 @media screen and (max-width: 850px) {
-  .vertical-navbar {
+  .mobile-navbar {
     position: fixed;
     margin: 0;
     padding: 0;
@@ -22,11 +25,11 @@
     z-index: 1;
   }
 
-  .vertical-navbar.menu-toggle {
+  .mobile-navbar.menu-toggle {
     transform: translateX(0);
   }
 
-  .vertical-navbar #nav-link {
+  .mobile-navbar #nav-link {
     display: block;
     background-color: var(--background-nav);
     color: var(--text-color-nav);
@@ -36,7 +39,7 @@
     font-size: var(--font-size-mobile-nav)
   }
 
-  .vertical-navbar #nav-link.active {
+  .mobile-navbar #nav-link.active {
     color: var(--text-color-active);
   }
 }

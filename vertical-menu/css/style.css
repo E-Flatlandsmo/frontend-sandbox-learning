@@ -23,7 +23,6 @@ body {
     font-family: Figtree, sans-serif, Arial, Helvetica;
     font-size: 20px;
     background-color: white;
-
 }
 
 h1 {
@@ -82,10 +81,4 @@ figcaption {
     font-style: italic;
 }
 
-.marketing-placeholder {
-    margin: auto;
-    width: 50%;
-    height: 50%;
-    background-color: black;
 
-}
