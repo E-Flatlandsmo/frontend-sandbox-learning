@@ -11,7 +11,7 @@
     height: 100%;
     width: 100%;
     background-color: var(--background-vertical-nav);
-    transform: translateX(-100%);
+    transform: translateX(-100%); /* ensures that the vertical menu is to the left of the view port*/
     transition: transform 0.5s ease-in-out;
   }
 

@@ -1,5 +1,4 @@
-@import "style.css";
-  header {
+  /* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,6 +9,6 @@
   }
   
   .logo img {
-    height: 9vh; /* Adjust the height as needed */
-  }
+    height: 9vh;
+  } */
   

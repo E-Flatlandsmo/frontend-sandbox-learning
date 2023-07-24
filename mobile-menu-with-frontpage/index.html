@@ -14,15 +14,34 @@
 </head>
 
 <body>
-    <!-- Add style into stylesheet. Remove css that is not used. -->
-    <div class="menu-toggle" style="position: absolute; display:flex; right:0; margin:1rem; color:white">
+    <div class="menu-toggle">
         <i class="fas fa-ellipsis-h fa-3x" onClick="show()"></i>
     </div>
+    <div class="vertical-navbar">
+        <div id="mobile-navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/mobile-menu-with-frontpage/images/eijos_logo_no_background-white.png" alt="Eijos Logo">
+                </a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-xmark" onClick="hide()"></i>
+            </div>
+        </div>
+        <nav>
+            <a id="nav-link" href="#" class="active">Home</a>
+            <a id="nav-link" href="#">Link 1</a>
+            <a id="nav-link" href="#">Link 2</a>
+            <a id="nav-link" href="#">Link 3</a>
+            <a id="nav-link" href="#">Link 4</a>
+        </nav>
+    </div>
+
     <div id="front-page-image"></div>
     <div class="logo-container">
         <img class="logo" src="../frontpage-image/images/eijos_logo_no_background-white.png" alt="Eijos Logo">
     </div>
-    <h1 class="front-page-text">Farm</h1>
+    <h1 class="front-page-text">Farming with nature</h1>
     <main>
         <p class="key-sentence"> - Eit norsk eventyr - </p>
         <img class="img-center-reduce" src="images/solaris.jpg">
