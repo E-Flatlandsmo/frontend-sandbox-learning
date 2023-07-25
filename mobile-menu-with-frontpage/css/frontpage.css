@@ -17,11 +17,12 @@ h1 {
 
 #front-page-image {
     background-color: rgb(173, 173, 198);
-    background-image: url("../images/grapes_blue_large.jpg");
+    background-image: url("../images/grapes_blue_vertical.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    /* width: 100vw; */
     transition: opacity 0.2s ease;
 }
 
