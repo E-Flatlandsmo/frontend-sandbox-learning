@@ -1,6 +1,6 @@
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-top: 5px;
     padding-left: 10px;
@@ -9,6 +9,6 @@
   }
   
   #logo-navbar {
-    height: 9vh; /* Adjust the height as needed */
+    height: 15vh; /* Adjust the height as needed */
   }
   

@@ -14,13 +14,15 @@ h1 {
     font-weight: 450;
 }
 
+
 #front-page-image {
     background-color: rgb(173, 173, 198);
-    background-image: url("../images/grapes_blue_vertical.jpg");
-    background-repeat: no-repeat;   
+    background-image: url("../images/grapes_blue_large.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    transition: opacity 0.2s ease;
 }
 
 .logo-container {
@@ -51,5 +53,39 @@ h1 {
 .logo {
     display: block;
     height: 25vh;
-    /* Adjust the height as needed */
+}
+
+
+@media screen and (max-width: 420px) {
+    .front-page-text {
+        top: 50%;
+    }
+
+    #front-page-image {
+        background-color: rgb(173, 173, 198);
+        background-image: url("../images/grapes_blue_vertical.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+        transition: opacity 0.2s ease;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .logo {
+        height: 30vh;
+    }
+
+    .menu-icon-open {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 850px) {
+
+    /* Means from 850px and larger. */
+    .logo {
+        height: 35vh;
+    }
 }
